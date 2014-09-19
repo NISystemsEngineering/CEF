@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="true"?>
+<MetaData>
+<ProjectTemplate>
+  <Title localize="yes"> Configuration Editor Project</Title>
+  <Description localize="yes">Template for creating a Configuration Editor.</Description>
+  <Filters localize="yes">Sample Projects:Desktop</Filters>
+  <Keywords localize="yes">CVT;Configuration;Tree;</Keywords>
+  <LocationPath>Configuration Editor Framework</LocationPath>
+  <ProjectPath>Configuration Editor Framework Template.lvproj</ProjectPath>>
+  <ListboxImagePath>Glyphs/Gear.png</ListboxImagePath>
+</ProjectTemplate>
+</MetaData>
