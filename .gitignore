@@ -16,4 +16,4 @@
 *.lvlps
 
 !/Style Guidelines/**/*
-!**/vi.lib/**
+!/Trunk/vi.lib/**
