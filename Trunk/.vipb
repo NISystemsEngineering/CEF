@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-09-22 14:06:02" Creator="bcelis" Comments="" ID="1755232f9d3511e94d28860743df4377">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-10-09 11:15:24" Creator="bcelis" Comments="" ID="3fbb17f2ab3e8c6b1d75726098baf2ed">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>1.2.0.31</Library_Version>
+    <Library_Version>1.2.1.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Export</Library_Output_Folder>
@@ -35,27 +35,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://www.ni.com/example/51881/en</URL>
-      <Release_Notes>Build 30 
-Bug Fixes
-#10 Typo in VI Description of ..vi.lib\CEF_TreeControl\Summary.vi bug
-#9 Enum names bug
-#5 Error clusters in the In Place Element structures not wired bug
-#4 Typo in VI description in ..Source\CEF Test\subVI\FileDialog.vi bug
-#3 Typo in block diagram of ..vi.lib\CEF_TreeControl\Repository\GetClassPath.vi "buidlign" bug
-#1 Glyph text is case sensitive but no error messages if glyph not found bug 
-
-
-build 29
-
-"CleanUp" method added to node.
-"MenuHandler" method added to node to allow more dynamic menus.
-Configurator template updated to include above changes.
-
-Important: New terminal added to some VIs. 
- The "parameter" terminal was added to the node class in  "Initialize", "Duplicate" and "Validate". And "Open" and "Initilize" for the Repository class.
-Update to all child nodes that use this method is required.
-
-Fixed bug with save as</Release_Notes>
+      <Release_Notes>added DD function for adding a new child node</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -466,7 +446,7 @@ Fixed bug with save as</Release_Notes>
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3BFDAE72D051C36F4D44C360180B6FF</GUID>
+      <GUID>E5056FB34A1B74089E6C76CC09871258</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -557,7 +537,7 @@ Fixed bug with save as</Release_Notes>
         <Path>vi.lib\CEF_TreeControl\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9EABDDA1291ACE59547713B3D254782</GUID>
+      <GUID>B71BDE55D85C4A25C65C4B43220503E6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
