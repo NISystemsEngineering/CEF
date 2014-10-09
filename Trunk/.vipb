@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-10-09 11:15:24" Creator="bcelis" Comments="" ID="3fbb17f2ab3e8c6b1d75726098baf2ed">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-10-09 14:13:03" Creator="bcelis" Comments="" ID="d807e7cd0918685b56aa534d4053dc4b">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>1.2.1.32</Library_Version>
+    <Library_Version>1.3.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Export</Library_Output_Folder>
@@ -103,6 +103,21 @@
         <Path>.</Path>
         <Password/>
         <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>vi.lib/CEF_TreeControl/NISE_CEF_TreeControl.lvlib</Path>
+        <Password/>
+        <Locked_Only>true</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>vi.lib/CEF_TreeControl/Node/NISE_CEF_Node.lvclass</Path>
+        <Password/>
+        <Locked_Only>true</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>vi.lib/CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass</Path>
+        <Password/>
+        <Locked_Only>true</Locked_Only>
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
@@ -446,7 +461,7 @@
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5056FB34A1B74089E6C76CC09871258</GUID>
+      <GUID>7F651D9D575450A3B63202296D9E4B56</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -537,7 +552,7 @@
         <Path>vi.lib\CEF_TreeControl\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B71BDE55D85C4A25C65C4B43220503E6</GUID>
+      <GUID>36664EF1DF848140D2CE8F8EFF74AE2F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

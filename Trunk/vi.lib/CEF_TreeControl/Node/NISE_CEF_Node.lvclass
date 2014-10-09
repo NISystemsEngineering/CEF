@@ -3,7 +3,6 @@
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)5!!!*Q(C=\&gt;4"&lt;2MR&amp;)4B3?"$LOIA5!OP"&lt;7A&amp;FY,OO;I&amp;K9&amp;N;#DL^/#7F!,GX^JWIC$1!K-".$"O_,;GC5@0X'*F=&lt;R48L3=O^YPHH]\@XFZ40;[_8&gt;`?6Z??HU?PF^`0,O`P+H_D@(XZ\`Y\`PTK(0Y`.Y\/0(X5X]X`@T&amp;[UP)FJIJD7NN%[XB$TE)1^ZS%.O=J/&lt;X/1G.XG4.XG4.XG4.XG2&amp;XG2&amp;XG2&amp;`EYS55O=J&amp;$#J/(C5,25#"UBK*Q#:\A#:\AY;O#*XC#*XC#BSY+HO!*HO!*(I9J?))H?))H?#AV*"EH/:\AI&lt;S-RXC-RXC-BSFF0!:A*D/&amp;42%9-D@.0]:D0-&lt;$PT)?YT%?YT%?&lt;MNYD-&gt;YD-&gt;Y'$*7R5/THO2Y++0'UXA;4_.J0*27YWE]D;@R."[G5_.J0!WCG&lt;!J$E(.I+:$][8R."\_K0%UHM&lt;4?"I0N]94[L%SKW9^S@%5HM*4?!J0Y;'%#E`B+4S&amp;J`"16I7H]"3?QF.YG%K&amp;J`!5HA*34-LU+II6!YN/26"Y_)T&gt;5O-J?5BKH.,=P*K&lt;5H/T;7YCT=WB_&gt;!V([&lt;G1^*=@-V&amp;V6QMT581`(';;%W-ZC3;A^?/OH+^U-[U%_V)/^$WN"VN3^OM1`^RR_PVKMPFIP0ZL.0JJ/0RK-0BI0V_L^VOJ_VWK]VG]`9;_-\Z^E*YB0@31RC_[N@;L.&amp;0;&amp;!3`1!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">NISE_CEF_Node</Property>
-	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -208,7 +207,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">44040208</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">41943056</Property>
 	</Item>
 	<Item Name="UIRef.vi" Type="VI" URL="../UIRef.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&lt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!=!!)!!!!!A!!#6:*)(*F:GZV&lt;1!K1(!!(A!!&amp;R6/36.&amp;8U.&amp;2F^/&lt;W2F,GRW9WRB=X-!#'ZP:'5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!+%"Q!"Y!!"=64EF426^$25:@4G^E:3ZM&gt;G.M98.T!!&gt;O&lt;W2F)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
