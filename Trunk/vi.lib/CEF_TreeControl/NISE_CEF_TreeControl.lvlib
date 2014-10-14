@@ -39,6 +39,7 @@
 		<Item Name="GlyphIndexPairActions.ctl" Type="VI" URL="../Controls/GlyphIndexPairActions.ctl"/>
 	</Item>
 	<Item Name="AddNode.vi" Type="VI" URL="../AddNode.vi"/>
+	<Item Name="ClassNameCompare.vi" Type="VI" URL="../ClassNameCompare.vi"/>
 	<Item Name="ClearSpecificError.vi" Type="VI" URL="../ClearSpecificError.vi"/>
 	<Item Name="ClearSubPanel.vi" Type="VI" URL="../ClearSubPanel.vi"/>
 	<Item Name="ClearTreeNode.vi" Type="VI" URL="../ClearTreeNode.vi"/>
