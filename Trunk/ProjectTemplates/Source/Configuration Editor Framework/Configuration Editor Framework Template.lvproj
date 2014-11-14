@@ -3,6 +3,7 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
 	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
 	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
@@ -75,11 +76,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Do Not Edit. Just For Inheritance" Type="Folder">
-			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../vi.lib/CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
-			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../vi.lib/CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
-			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../vi.lib/CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
-		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Channel.lvclass" Type="LVClass" URL="../Classes/Channel/Channel.lvclass"/>
 			<Item Name="cRIO.lvclass" Type="LVClass" URL="../Classes/cRIO/cRIO.lvclass"/>
@@ -87,22 +83,6 @@
 			<Item Name="Current.lvclass" Type="LVClass" URL="../Classes/Current/Current.lvclass"/>
 			<Item Name="Group.lvclass" Type="LVClass" URL="../Classes/Group/Group.lvclass"/>
 			<Item Name="Voltage.lvclass" Type="LVClass" URL="../Classes/Voltage/Voltage.lvclass"/>
-		</Item>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Channel.ctl" Type="VI" URL="../Controls/Channel.ctl"/>
-			<Item Name="AddMessage.ctl" Type="VI" URL="../Controls/AddMessage.ctl"/>
-			<Item Name="MoveMessage.ctl" Type="VI" URL="../Controls/MoveMessage.ctl"/>
-			<Item Name="FilePaths.ctl" Type="VI" URL="../Controls/FilePaths.ctl"/>
-			<Item Name="StateCluster.ctl" Type="VI" URL="../Controls/StateCluster.ctl"/>
-		</Item>
-		<Item Name="subVI" Type="Folder">
-			<Item Name="SaveAs.vi" Type="VI" URL="../subVI/SaveAs.vi"/>
-			<Item Name="SaveDialog.vi" Type="VI" URL="../subVI/SaveDialog.vi"/>
-			<Item Name="Save.vi" Type="VI" URL="../subVI/Save.vi"/>
-			<Item Name="MenuOptions.vi" Type="VI" URL="../subVI/MenuOptions.vi"/>
-			<Item Name="Error.vi" Type="VI" URL="../subVI/Error.vi"/>
-			<Item Name="FileDialog.vi" Type="VI" URL="../subVI/FileDialog.vi"/>
-			<Item Name="FilePaths.vi" Type="VI" URL="../subVI/FilePaths.vi"/>
 		</Item>
 		<Item Name="Glyphs" Type="Folder">
 			<Item Name="AC_Volts.png" Type="Document" URL="../Glyphs/AC_Volts.png"/>
@@ -130,7 +110,7 @@
 			<Item Name="temp.png" Type="Document" URL="../Glyphs/temp.png"/>
 			<Item Name="velocity.png" Type="Document" URL="../Glyphs/velocity.png"/>
 		</Item>
-		<Item Name="Configurator_Main.vi" Type="VI" URL="../Configurator_Main.vi"/>
+		<Item Name="Configuration Tool.lvlib" Type="Library" URL="../Configuration Tool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -180,6 +160,9 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
+			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
+			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
+			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
