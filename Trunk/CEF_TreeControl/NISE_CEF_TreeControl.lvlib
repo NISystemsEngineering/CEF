@@ -45,6 +45,7 @@
 	<Item Name="ClearTreeNode.vi" Type="VI" URL="../ClearTreeNode.vi"/>
 	<Item Name="CloseNode.vi" Type="VI" URL="../CloseNode.vi"/>
 	<Item Name="DuplicateNode.vi" Type="VI" URL="../DuplicateNode.vi"/>
+	<Item Name="error generator.vi" Type="VI" URL="../error generator.vi"/>
 	<Item Name="GlyphIndexPairs.vi" Type="VI" URL="../GlyphIndexPairs.vi"/>
 	<Item Name="LoadCustomGlyphs.vi" Type="VI" URL="../LoadCustomGlyphs.vi"/>
 	<Item Name="LoadNodeUI.vi" Type="VI" URL="../LoadNodeUI.vi"/>

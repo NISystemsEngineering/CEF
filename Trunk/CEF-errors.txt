@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Configuration Framework" displayname="Configuration Framework">
+</nifamily>
+</nicomment>
+<nierror code="538500">
+Class not found
+</nierror>
+<nierror code="538501">
+An abstract parent method was called which does not contain an implementation
+</nierror>
+<nierror code="538502">
+That property is already set
+</nierror>
+</nidocument>
