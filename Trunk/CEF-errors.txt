@@ -14,4 +14,7 @@ An abstract parent method was called which does not contain an implementation
 <nierror code="538502">
 That property is already set
 </nierror>
+<nierror code="538503">
+Unable to locate the data for all children
+</nierror>
 </nidocument>

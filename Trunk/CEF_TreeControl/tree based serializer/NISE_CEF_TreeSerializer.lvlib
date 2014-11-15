@@ -9,7 +9,11 @@
 	<Item Name="add to memory format.vi" Type="VI" URL="../add to memory format.vi"/>
 	<Item Name="base file format.ctl" Type="VI" URL="../base file format.ctl"/>
 	<Item Name="file data format.ctl" Type="VI" URL="../file data format.ctl"/>
+	<Item Name="find instance.vi" Type="VI" URL="../find instance.vi"/>
+	<Item Name="get children.vi" Type="VI" URL="../get children.vi"/>
 	<Item Name="hierarchy element.ctl" Type="VI" URL="../hierarchy element.ctl"/>
 	<Item Name="instance data.ctl" Type="VI" URL="../instance data.ctl"/>
 	<Item Name="memory hierarchy.ctl" Type="VI" URL="../memory hierarchy.ctl"/>
+	<Item Name="search for ID.vi" Type="VI" URL="../search for ID.vi"/>
+	<Item Name="search hierarchy.vi" Type="VI" URL="../search hierarchy.vi"/>
 </Library>
