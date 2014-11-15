@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-11-14 16:11:23" Creator="bcelis" Comments="" ID="a52a648d4fca9a58c8cc1a3d395334d2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-11-05 09:16:58" Creator="bcelis" Comments="" ID="ec3f09aeaae61ab5dc439b0a60b6aafd">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>1.3.0.4</Library_Version>
+    <Library_Version>1.3.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Export</Library_Output_Folder>
@@ -35,7 +35,16 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://www.ni.com/example/51881/en</URL>
-      <Release_Notes>added DD function for adding a new child node</Release_Notes>
+      <Release_Notes>MOre details in : https://github.com/NISystemsEngineering/CEF/issues
+Fixes #23 Including a build configuration in the sample project. 
+Fixes #8 added documentation in the Glyphs path
+Fixes #20 Made glyphs non case sensitive. Added error handling for glyphs not found it will throw error 538500
+Fixes #25 all the errors generated are in the proper range
+Fixes #24 The file Dialog is in a subVI, it is used in all the places a file is open so its the only place that contains the file extension. Added tag #USERCFG  so users know to configure this.
+Fixes #22 The only location for dialogs is in the error case and the File Dialog Vi
+Fixes #21 appended the menu name
+Fixes #11
+Fixes #13</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -125,7 +134,7 @@
         <Namespace/>
       </Namespace_Overrides>
     </Source_Files>
-    <License_Agreement_Filepath>NI_Sample_Code_ License_Terms_201202.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>..\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -461,7 +470,7 @@
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33C823F775991973A7003AD1D43AD9B1</GUID>
+      <GUID>D4EECB91ECA59E86EA173F056EAC9EA9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -552,7 +561,7 @@
         <Path>vi.lib\CEF_TreeControl\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27D24E73A5C4422083872D6B271E9D51</GUID>
+      <GUID>F29D63B7F55261A7920C84389CE30FE7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
