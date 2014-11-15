@@ -52,6 +52,7 @@
 	<Item Name="MoveNode.vi" Type="VI" URL="../MoveNode.vi"/>
 	<Item Name="NodeUI.vit" Type="VI" URL="../NodeUI.vit"/>
 	<Item Name="NonDuplicateArrays.vi" Type="VI" URL="../NonDuplicateArrays.vi"/>
+	<Item Name="one shot error.vi" Type="VI" URL="../one shot error.vi"/>
 	<Item Name="PopulateTreeSumary.vi" Type="VI" URL="../PopulateTreeSumary.vi"/>
 	<Item Name="RefreshEntireTree.vi" Type="VI" URL="../RefreshEntireTree.vi"/>
 	<Item Name="RefreshSubTree.vi" Type="VI" URL="../RefreshSubTree.vi"/>

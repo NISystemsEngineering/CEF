@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nidocument>
 <nicomment>
-
 <nifamily familyname="Configuration Framework" displayname="Configuration Framework">
 </nifamily>
 </nicomment>
@@ -16,5 +15,14 @@ That property is already set
 </nierror>
 <nierror code="538503">
 Unable to locate the data for all children
+</nierror>
+<nierror code="538504">
+Glyph not found
+</nierror>
+<nierror code="538505">
+Missing message handler
+</nierror>
+<nierror code="538506">
+Unknown menu or right click option
 </nierror>
 </nidocument>
