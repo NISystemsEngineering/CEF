@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-11-05 09:16:58" Creator="bcelis" Comments="" ID="ec3f09aeaae61ab5dc439b0a60b6aafd">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-11-14 20:55:45" Creator="bcelis" Comments="" ID="9259765ab60976c80beac3c52b76b8ac">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
     <Library_Version>1.3.1.2</Library_Version>
@@ -134,7 +134,7 @@ Fixes #13</Release_Notes>
         <Namespace/>
       </Namespace_Overrides>
     </Source_Files>
-    <License_Agreement_Filepath>..\LICENSE.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>NI_Sample_Code_ License_Terms_201202.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -470,7 +470,7 @@ Fixes #13</Release_Notes>
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4EECB91ECA59E86EA173F056EAC9EA9</GUID>
+      <GUID>54BC44B1664E0DF7D7DB52973D4BD2F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -561,7 +561,7 @@ Fixes #13</Release_Notes>
         <Path>vi.lib\CEF_TreeControl\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F29D63B7F55261A7920C84389CE30FE7</GUID>
+      <GUID>CEA425E67C545B3109EEE253E366B950</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
