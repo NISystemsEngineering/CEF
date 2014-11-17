@@ -25,4 +25,7 @@ Missing message handler
 <nierror code="538506">
 Unknown menu or right click option
 </nierror>
+<nierror code="538507">
+Systems are limited to a single root node
+</nierror>
 </nidocument>
