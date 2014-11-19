@@ -76,6 +76,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Classes" Type="Folder">
+			<Item Name="voltage node.lvclass" Type="LVClass" URL="../Classes/voltage node/voltage node.lvclass"/>
+			<Item Name="channel node.lvclass" Type="LVClass" URL="../Classes/channel node/channel node.lvclass"/>
+			<Item Name="current node.lvclass" Type="LVClass" URL="../Classes/current node/current node.lvclass"/>
+			<Item Name="channel configuration.lvclass" Type="LVClass" URL="../Classes/channel configuration/channel configuration.lvclass"/>
+			<Item Name="group node.lvclass" Type="LVClass" URL="../Classes/group node/group node.lvclass"/>
+			<Item Name="group configuration.lvclass" Type="LVClass" URL="../Classes/group configuration/group configuration.lvclass"/>
+			<Item Name="cRIO configuration.lvclass" Type="LVClass" URL="../Classes/crio configuration/crio configuration.lvclass"/>
+			<Item Name="cRIO  node root.lvclass" Type="LVClass" URL="../Classes/cRIO node/cRIO  node root.lvclass"/>
+		</Item>
 		<Item Name="Glyphs" Type="Folder">
 			<Item Name="AC_Volts.png" Type="Document" URL="../Glyphs/AC_Volts.png"/>
 			<Item Name="analog.png" Type="Document" URL="../Glyphs/analog.png"/>
@@ -163,8 +173,6 @@
 			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
 			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
 			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
-			<Item Name="cfg cRIO root.lvclass" Type="LVClass" URL="../Classes/cRIO/cfg cRIO root.lvclass"/>
-			<Item Name="crio configuration.lvclass" Type="LVClass" URL="../Classes/criocfg/crio configuration.lvclass"/>
 			<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
 			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/serializable node/NISE_CEF_serializable node.lvclass"/>
 			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
