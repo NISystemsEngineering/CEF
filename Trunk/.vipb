@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-11-19 13:50:18" Creator="bcelis" Comments="" ID="57c2fb260c6f0b04ed64a4b2025e44fc">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-08 19:00:40" Modified_Date="2014-11-19 16:47:40" Creator="bcelis" Comments="" ID="99e504231d2fcfac705cb218d4a6cdfb">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>1.3.1.3</Library_Version>
+    <Library_Version>1.3.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Export</Library_Output_Folder>
@@ -35,8 +35,9 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://www.ni.com/example/51881/en</URL>
-      <Release_Notes>Adding Advance Proyect
+      <Release_Notes>Advance project includes a predifned Repo Behavior and predifined File Structure
 
+FIxed Deploy path
 More details in : https://github.com/NISystemsEngineering/CEF/issues
 </Release_Notes>
     </Description>
@@ -44,7 +45,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;</Path>
+        <Path>&lt;vi.lib&gt;\NI\CEF</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -449,7 +450,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71785A82925C06E6536CEFE2B0310595</GUID>
+      <GUID>824B10FB4315E5553E9D29FAD84DB4CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -540,7 +541,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues
         <Path>CEF_TreeControl\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AA701D4EF62C8883C9671B17FA356C5</GUID>
+      <GUID>C9A85556CD847EC94E01C7D8BD9BC0E1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
