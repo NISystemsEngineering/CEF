@@ -38,6 +38,7 @@
 		<Item Name="GlyphIndexPair.ctl" Type="VI" URL="../Controls/GlyphIndexPair.ctl"/>
 		<Item Name="GlyphIndexPairActions.ctl" Type="VI" URL="../Controls/GlyphIndexPairActions.ctl"/>
 	</Item>
+	<Item Name="add filename if missing.vi" Type="VI" URL="../add filename if missing.vi"/>
 	<Item Name="AddNode.vi" Type="VI" URL="../AddNode.vi"/>
 	<Item Name="ClassNameCompare.vi" Type="VI" URL="../ClassNameCompare.vi"/>
 	<Item Name="ClearSpecificError.vi" Type="VI" URL="../ClearSpecificError.vi"/>

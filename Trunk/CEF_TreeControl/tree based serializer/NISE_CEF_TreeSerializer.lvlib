@@ -10,7 +10,9 @@
 	<Item Name="base file" Type="Folder">
 		<Item Name="base file format.ctl" Type="VI" URL="../base file format.ctl"/>
 		<Item Name="get file data.vi" Type="VI" URL="../get file data.vi"/>
+		<Item Name="read full file.vi" Type="VI" URL="../read full file.vi"/>
 		<Item Name="save file data.vi" Type="VI" URL="../save file data.vi"/>
+		<Item Name="write full file.vi" Type="VI" URL="../write full file.vi"/>
 	</Item>
 	<Item Name="class load/store" Type="Folder">
 		<Item Name="memory to strings.vi" Type="VI" URL="../memory to strings.vi"/>
