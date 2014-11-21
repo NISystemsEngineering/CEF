@@ -28,4 +28,7 @@ Unknown menu or right click option
 <nierror code="538507">
 Systems are limited to a single root node
 </nierror>
+<nierror code="538508">
+Unable to locate an instance ID in the serialized data
+</nierror>
 </nidocument>

@@ -4,6 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="cfgserializable" Type="Folder">
+		<Item Name="proptest_instancecount.vi" Type="VI" URL="../proptest_instancecount.vi"/>
+		<Item Name="proptest_runtime class.vi" Type="VI" URL="../proptest_runtime class.vi"/>
+		<Item Name="serialization test.vi" Type="VI" URL="../serialization test.vi"/>
+		<Item Name="test enumerate.vi" Type="VI" URL="../test enumerate.vi"/>
+		<Item Name="test metadata.vi" Type="VI" URL="../test metadata.vi"/>
+		<Item Name="test validation.vi" Type="VI" URL="../test validation.vi"/>
+	</Item>
 	<Item Name="GetIDs.vi" Type="VI" URL="../GetIDs.vi"/>
 	<Item Name="IDs.ctl" Type="VI" URL="../Controls/IDs.ctl"/>
 	<Item Name="LinkTest.vi" Type="VI" URL="../LinkTest.vi"/>
