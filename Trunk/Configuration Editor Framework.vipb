@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-11-21 15:26:38" Creator="Daniel" Comments="" ID="3f3681eea7e5a6fadca9fb8d675b07d9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-11-24 16:01:29" Creator="Daniel" Comments="" ID="cd7c8485cbbb3306795ce4aab0faa151">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
     <Library_Version>2.0.0.2</Library_Version>
@@ -44,7 +44,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\NI\CEF</Path>
+        <Path>&lt;vi.lib&gt;\NI</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -473,7 +473,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F38B4FC04538043495E59E7DC1C85CDF</GUID>
+      <GUID>17C45CD53B2968467B588A131DD292DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -564,7 +564,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>CEF_TreeControl\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E51639F0C8594449E4E3F4484F92CF94</GUID>
+      <GUID>9FB1B7FEEF7BBDAD1C4DAF1FBCC04608</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
