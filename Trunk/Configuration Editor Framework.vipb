@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-11-24 16:01:29" Creator="Daniel" Comments="" ID="cd7c8485cbbb3306795ce4aab0faa151">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-11-24 16:44:09" Creator="Daniel" Comments="" ID="98bd641297a908bab891f25aed647efa">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\CEF</Library_Output_Folder>
@@ -232,7 +232,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\IDtoNode.vi</Path>
+        <Path>Configuration Framework\Node\IDtoNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -246,7 +246,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\NodetoID.vi</Path>
+        <Path>Configuration Framework\Node\NodetoID.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -260,7 +260,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\LinkNodes.vi</Path>
+        <Path>Configuration Framework\Node\LinkNodes.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -274,7 +274,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\UnlinkNode.vi</Path>
+        <Path>Configuration Framework\Node\UnlinkNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -288,7 +288,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\AddNode.vi</Path>
+        <Path>Configuration Framework\AddNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -302,7 +302,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\RemoveNode.vi</Path>
+        <Path>Configuration Framework\RemoveNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -316,7 +316,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\DuplicateNode.vi</Path>
+        <Path>Configuration Framework\DuplicateNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -330,7 +330,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\MoveNode.vi</Path>
+        <Path>Configuration Framework\MoveNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -344,7 +344,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\CloseNode.vi</Path>
+        <Path>Configuration Framework\CloseNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -358,7 +358,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\ClearSubPanel.vi</Path>
+        <Path>Configuration Framework\ClearSubPanel.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -372,7 +372,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\LoadNodeUI.vi</Path>
+        <Path>Configuration Framework\LoadNodeUI.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -386,7 +386,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\LoadCustomGlyphs.vi</Path>
+        <Path>Configuration Framework\LoadCustomGlyphs.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -400,7 +400,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\RefreshEntireTree.vi</Path>
+        <Path>Configuration Framework\RefreshEntireTree.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -414,7 +414,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\PopulateTreeSumary.vi</Path>
+        <Path>Configuration Framework\PopulateTreeSumary.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -428,7 +428,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\RefreshSubTree.vi</Path>
+        <Path>Configuration Framework\RefreshSubTree.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -442,7 +442,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\NodeUI.vit</Path>
+        <Path>Configuration Framework\NodeUI.vit</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -456,7 +456,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\ClearTreeNode.vi</Path>
+        <Path>Configuration Framework\ClearTreeNode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -473,7 +473,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17C45CD53B2968467B588A131DD292DD</GUID>
+      <GUID>3ED812E3EFE02299F968749F4620960C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -505,7 +505,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\GetText.vi</Path>
+        <Path>Configuration Framework\Node\GetText.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -519,7 +519,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\UIRef.vi</Path>
+        <Path>Configuration Framework\Node\UIRef.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -533,7 +533,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\EditOptions.vi</Path>
+        <Path>Configuration Framework\Node\EditOptions.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -547,7 +547,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\ShortcutMenu.vi</Path>
+        <Path>Configuration Framework\Node\ShortcutMenu.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -561,10 +561,10 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>CEF_TreeControl\Node\Duplicate.vi</Path>
+        <Path>Configuration Framework\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FB1B7FEEF7BBDAD1C4DAF1FBCC04608</GUID>
+      <GUID>F6FD2C85B274EE1F1C32F4A6E18B8167</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
