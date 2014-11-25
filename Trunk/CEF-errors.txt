@@ -29,6 +29,9 @@ Unknown menu or right click option
 Systems are limited to a single root node
 </nierror>
 <nierror code="538508">
-Unable to locate an instance ID in the serialized data
+Unable to locate an UID in the serialized data
+</nierror>
+<nierror code="538509">
+Specified UID is the root, the hierarchy cannot be split
 </nierror>
 </nidocument>
