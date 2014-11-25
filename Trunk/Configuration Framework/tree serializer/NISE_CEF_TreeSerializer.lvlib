@@ -13,6 +13,7 @@
 			<Item Name="base file format.ctl" Type="VI" URL="../base file format.ctl"/>
 			<Item Name="get file data.vi" Type="VI" URL="../get file data.vi"/>
 			<Item Name="read full file.vi" Type="VI" URL="../read full file.vi"/>
+			<Item Name="write string array to file.vi" Type="VI" URL="../write string array to file.vi"/>
 			<Item Name="save file data.vi" Type="VI" URL="../save file data.vi"/>
 			<Item Name="write full file.vi" Type="VI" URL="../write full file.vi"/>
 		</Item>
@@ -28,16 +29,22 @@
 	<Item Name="hierarchy" Type="Folder">
 		<Item Name="flat hierarchy manipulation" Type="Folder">
 			<Item Name="flat hierarchy.ctl" Type="VI" URL="../flat hierarchy.ctl"/>
-			<Item Name="find flat instance.vi" Type="VI" URL="../find flat instance.vi"/>
 			<Item Name="instance data.ctl" Type="VI" URL="../instance data.ctl"/>
+			<Item Name="find flat instance.vi" Type="VI" URL="../find flat instance.vi"/>
 			<Item Name="search instance list for alias.vi" Type="VI" URL="../search instance list for alias.vi"/>
 			<Item Name="search instance list for class.vi" Type="VI" URL="../search instance list for class.vi"/>
+			<Item Name="get flattened children.vi" Type="VI" URL="../get flattened children.vi"/>
+			<Item Name="add to flattened hierarchy.vi" Type="VI" URL="../add to flattened hierarchy.vi"/>
+			<Item Name="remove from flattened hierarchy.vi" Type="VI" URL="../remove from flattened hierarchy.vi"/>
 			<Item Name="search instance list for ID.vi" Type="VI" URL="../search instance list for ID.vi"/>
 			<Item Name="find alias from UID.vi" Type="VI" URL="../find alias from UID.vi"/>
+			<Item Name="split flat hierarchy.vi" Type="VI" URL="../split flat hierarchy.vi"/>
+			<Item Name="find all instances with alias.vi" Type="VI" URL="../find all instances with alias.vi"/>
 		</Item>
 		<Item Name="memory manipulation" Type="Folder">
 			<Item Name="add to memory format.vi" Type="VI" URL="../add to memory format.vi"/>
 			<Item Name="find instance.vi" Type="VI" URL="../find instance.vi"/>
+			<Item Name="split memory hierarchy.vi" Type="VI" URL="../split memory hierarchy.vi"/>
 			<Item Name="get children.vi" Type="VI" URL="../get children.vi"/>
 			<Item Name="memory hierarchy.ctl" Type="VI" URL="../memory hierarchy.ctl"/>
 			<Item Name="remove from memory format.vi" Type="VI" URL="../remove from memory format.vi"/>
@@ -45,5 +52,7 @@
 		<Item Name="search hierarchy.vi" Type="VI" URL="../search hierarchy.vi"/>
 		<Item Name="hierarchy element.ctl" Type="VI" URL="../hierarchy element.ctl"/>
 		<Item Name="full hierarchy.ctl" Type="VI" URL="../full hierarchy.ctl"/>
+		<Item Name="split hierarchy.vi" Type="VI" URL="../split hierarchy.vi"/>
 	</Item>
+	<Item Name="find all instances of class.vi" Type="VI" URL="../find all instances of class.vi"/>
 </Library>
