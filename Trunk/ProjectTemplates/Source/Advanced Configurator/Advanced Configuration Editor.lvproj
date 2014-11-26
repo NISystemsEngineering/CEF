@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
-	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="CCSymbols" Type="Str">CEFDEBUG,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -83,7 +83,7 @@
 			<Item Name="channel configuration.lvclass" Type="LVClass" URL="../Classes/channel configuration/channel configuration.lvclass"/>
 			<Item Name="group node.lvclass" Type="LVClass" URL="../Classes/group node/group node.lvclass"/>
 			<Item Name="group configuration.lvclass" Type="LVClass" URL="../Classes/group configuration/group configuration.lvclass"/>
-			<Item Name="cRIO configuration.lvclass" Type="LVClass" URL="../Classes/crio configuration/crio configuration.lvclass"/>
+			<Item Name="cRIO configuration.lvclass" Type="LVClass" URL="../Classes/cRIO configuration/cRIO configuration.lvclass"/>
 			<Item Name="cRIO  node root.lvclass" Type="LVClass" URL="../Classes/cRIO node/cRIO  node root.lvclass"/>
 		</Item>
 		<Item Name="Glyphs" Type="Folder">
@@ -170,14 +170,14 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 			</Item>
-			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
-			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
-			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
-			<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
-			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/serializable node/NISE_CEF_serializable node.lvclass"/>
-			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
-			<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="../../../../CEF_TreeControl/tree based serializer/NISE_CEF_TreeSerializer.lvlib"/>
-			<Item Name="NISE_CEF_class discovery library.lvlib" Type="Library" URL="../../../../CEF_TreeControl/class discovery singleton/NISE_CEF_class discovery library.lvlib"/>
+			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
+			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../../../../Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
+			<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="../../../../Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
+			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../Configuration Framework/NISE_CEF_TreeControl.lvlib"/>
+			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Node/NISE_CEF_Node.lvclass"/>
+			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../../../../Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
+			<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
+			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
