@@ -128,8 +128,6 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="LVMenuShortCut.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMenuShortCut.ctl"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
@@ -161,10 +159,16 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 			</Item>
-			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
-			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
-			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
+			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
+			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../Configuration Framework/NISE_CEF_TreeControl.lvlib"/>
+			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Node/NISE_CEF_Node.lvclass"/>
+			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../../../../Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
