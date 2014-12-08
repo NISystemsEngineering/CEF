@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-11-25 21:54:14" Creator="Daniel" Comments="" ID="a72aabe557ebeb47a4a74ae1fd7d84da">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-08 15:51:08" Creator="Daniel" Comments="" ID="e9bb1e5eb369777b66e517bc6171927c">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
     <Library_Version>2.0.3.3</Library_Version>
@@ -31,7 +31,7 @@
     <Description>
       <One_Line_Description_Summary>Framework for creating configuration editors.</One_Line_Description_Summary>
       <Description>Framework for creating configuration editors.
-The Configurator Editor Framework which is a starting point for creating a custom configuration editor in the LabVIEW Development Environment. The framework consists of a tree control and subpanel API, a LabVIEW project template, and 2 abstract LabVIEW classes.</Description>
+The Configurator Editor Framework which is a starting point for creating a custom configuration editor in the LabVIEW Development Environment. The framework consists of a tree control and subpanel API, two project templates, and a set of base classes used for developing a configuration application.</Description>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://www.ni.com/example/51881/en</URL>
@@ -473,7 +473,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Overide Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA18A162D3A3169873AE50E9BCD33AF1</GUID>
+      <GUID>A01F58CE62D7105504933B333053C653</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -564,7 +564,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FD373AA285ABEDF737CCC2DDC543B78</GUID>
+      <GUID>BCEA5B2A8C19225C558A34E28B26AD4E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
