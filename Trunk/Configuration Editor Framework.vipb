@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-08 18:40:12" Creator="Daniel" Comments="" ID="125d0b7a739c19e4c5f708d1a6e02dba">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-08 18:44:18" Creator="Daniel" Comments="" ID="16e158fd4f53ad6eaa7940cf1378a6ae">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>2.0.4.4</Library_Version>
+    <Library_Version>2.0.4.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\CEF</Library_Output_Folder>
