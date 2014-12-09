@@ -17,6 +17,7 @@
 	<Item Name="LinkTest.vi" Type="VI" URL="../LinkTest.vi"/>
 	<Item Name="MoveTest.vi" Type="VI" URL="../MoveTest.vi"/>
 	<Item Name="PopulateTest.vi" Type="VI" URL="../PopulateTest.vi"/>
+	<Item Name="test class filtering.vi" Type="VI" URL="../test class filtering.vi"/>
 	<Item Name="test flatten tree.vi" Type="VI" URL="../test flatten tree.vi"/>
 	<Item Name="TestTreeToRepo.vi" Type="VI" URL="../TestTreeToRepo.vi"/>
 </Library>
