@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-08 22:39:22" Creator="Daniel" Comments="" ID="d875580a46f5708acf1ba3a5c47ee2e8">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-09 14:07:10" Creator="Daniel" Comments="" ID="ae74e4c0788266210a6e9c8c16235a4d">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>2.0.4.6</Library_Version>
+    <Library_Version>2.0.4.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\CEF</Library_Output_Folder>
@@ -333,7 +333,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\class discovery singleton</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98A24145F05894475EF432E4F413661E</GUID>
+      <GUID>335139872A2DA0DEF4F1D5D7769C448F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -424,7 +424,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CC9E9DD97E877C4CBDA43B2D4A231F3</GUID>
+      <GUID>F1037F0DE97BCD8E8D7729AA174D048E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -571,7 +571,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\FilterNodesByRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE41A29E0D9013D666BEE20B1899B04A</GUID>
+      <GUID>16C617F80F515AD35DD70DA5CF0FC6C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -788,7 +788,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\error generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2186EAD4EB28C5CD850C089A5035B2E0</GUID>
+      <GUID>23D2397C641556C59FDEB04DDD6A6E62</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1215,7 +1215,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\tree serializer\search hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>11F9BF12BCFF0601183D48DF9181390F</GUID>
+      <GUID>EFD8831F7EA5E52464B72BC0B7A43FF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1334,7 +1334,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\serializable node\get information display strings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1874082C94B7210F5F3D3E1B1D7AA5E0</GUID>
+      <GUID>B0A237C9216C17B07C66170ACD9DEF49</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1705,7 +1705,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\serializable configuration\parse version string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62FA89912F4972D43BB7ADCD07218AF9</GUID>
+      <GUID>0BE0A4DA8C85917ECB0BFD381417AB0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1852,7 +1852,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\hierarchy repo\set configuration by alias.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6E008A10A6D6E8FA66C50A74A66B4FF</GUID>
+      <GUID>6091DE2BC4AC6161A85A1D368FE494CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2013,7 +2013,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Repository\WriteTree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>870F5DABD99E065EF3258D59629F420B</GUID>
+      <GUID>AA9E1D60666A600B4542E11DA689C73B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2104,7 +2104,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\class discovery singleton\search for available lvclass files.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>484081D6541CF5C9270BE6AE5EFCEC02</GUID>
+      <GUID>2A6F724E8639E2F09E9C6F27F73327BD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
