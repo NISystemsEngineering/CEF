@@ -32,6 +32,7 @@
 			<Item Name="instance data.ctl" Type="VI" URL="../instance data.ctl"/>
 			<Item Name="find flat instance.vi" Type="VI" URL="../find flat instance.vi"/>
 			<Item Name="search instance list for alias.vi" Type="VI" URL="../search instance list for alias.vi"/>
+			<Item Name="find all instances of class.vi" Type="VI" URL="../find all instances of class.vi"/>
 			<Item Name="search instance list for class.vi" Type="VI" URL="../search instance list for class.vi"/>
 			<Item Name="get flattened children.vi" Type="VI" URL="../get flattened children.vi"/>
 			<Item Name="add to flattened hierarchy.vi" Type="VI" URL="../add to flattened hierarchy.vi"/>
@@ -54,5 +55,4 @@
 		<Item Name="full hierarchy.ctl" Type="VI" URL="../full hierarchy.ctl"/>
 		<Item Name="split hierarchy.vi" Type="VI" URL="../split hierarchy.vi"/>
 	</Item>
-	<Item Name="find all instances of class.vi" Type="VI" URL="../find all instances of class.vi"/>
 </Library>
