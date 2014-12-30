@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-11 14:43:40" Creator="Daniel" Comments="" ID="07025396ec1362ba74695e7e276306fa">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-30 17:13:53" Creator="Daniel" Comments="" ID="8c47f68f5908493dff1ccf7d45d27af2">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
     <Library_Version>2.0.6.3</Library_Version>
@@ -252,8 +252,8 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>4</Sub_Palette_Index>
-        <NameSub_Menu_Name>NISE_CEF_TreeSerializer</NameSub_Menu_Name>
-        <Short_Name>NISE_CEF_TreeSerializer</Short_Name>
+        <NameSub_Menu_Name>tree serializer</NameSub_Menu_Name>
+        <Short_Name>tree serializer</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -266,8 +266,8 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>5</Sub_Palette_Index>
-        <NameSub_Menu_Name>NISE_CEF_serializable node</NameSub_Menu_Name>
-        <Short_Name>NISE_CEF_serializable node</Short_Name>
+        <NameSub_Menu_Name>serializable node</NameSub_Menu_Name>
+        <Short_Name>serializable node</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -280,8 +280,8 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>6</Sub_Palette_Index>
-        <NameSub_Menu_Name>NISE_CEF_serializable configuration</NameSub_Menu_Name>
-        <Short_Name>NISE_CEF_serializable configuration</Short_Name>
+        <NameSub_Menu_Name>serializable configuration</NameSub_Menu_Name>
+        <Short_Name>serializable configuration</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -294,8 +294,8 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>7</Sub_Palette_Index>
-        <NameSub_Menu_Name>NISE_CEF_HierarchyRepo</NameSub_Menu_Name>
-        <Short_Name>NISE_CEF_HierarchyRepo</Short_Name>
+        <NameSub_Menu_Name>tree repository</NameSub_Menu_Name>
+        <Short_Name>tree repository</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -308,8 +308,8 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>8</Sub_Palette_Index>
-        <NameSub_Menu_Name>NISE_CEF_Repository</NameSub_Menu_Name>
-        <Short_Name>NISE_CEF_Repository</Short_Name>
+        <NameSub_Menu_Name>repository</NameSub_Menu_Name>
+        <Short_Name>repository</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -333,7 +333,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\class discovery singleton</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85F468C7D33F0F77B51F08C0588AC18E</GUID>
+      <GUID>109706BEC120C10EE2C0B822225F89D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -424,7 +424,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>682B9068D4FD4405E5554BA33CF6FFD1</GUID>
+      <GUID>178039F1620C78CF53CE1427AD627414</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -571,7 +571,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\FilterNodesByRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8122AD9DE200EEDB94A41A0AC060E9E9</GUID>
+      <GUID>947295A31BBA26E30C288A605FFF2613</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -788,11 +788,11 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\error generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>53C8E5A9C266FA553C2CADD4503F219D</GUID>
+      <GUID>F471E99FA16E8612EB6E5952768ADA4A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>NISE_CEF_TreeSerializer</Name>
+      <Name>tree serializer</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>6</Height_Row>
@@ -1215,11 +1215,11 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\tree serializer\search hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46CA025310D1886FCBED628F1BACCDF9</GUID>
+      <GUID>E000B7202676CB967A9557956DC340C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>NISE_CEF_serializable node</Name>
+      <Name>serializable node</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>2</Height_Row>
@@ -1334,11 +1334,11 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\serializable node\get information display strings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0195C1806A53A4663F0D668A2EE1269</GUID>
+      <GUID>F9825B82C48D7D8600217DC6C5E842C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>NISE_CEF_serializable configuration</Name>
+      <Name>serializable configuration</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>4</Height_Row>
@@ -1705,11 +1705,11 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\serializable configuration\parse version string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26BD6407CD040E44695A140941E9E524</GUID>
+      <GUID>CA91437AE5B6275D76BD4CAC3A1FB767</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>NISE_CEF_HierarchyRepo</Name>
+      <Name>tree repository</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>2</Height_Row>
@@ -1852,11 +1852,11 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\hierarchy repo\set configuration by alias.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>788676DF2B5C87AFDDE7BA027EAC66A3</GUID>
+      <GUID>CB69CC99CAAAEBBFB1A6C0D43F7830B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>NISE_CEF_Repository</Name>
+      <Name>repository</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>2</Height_Row>
@@ -2013,7 +2013,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Repository\WriteTree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D21E2193A30040F4057495250229DA9</GUID>
+      <GUID>B110DED96FD86A300598E20F3C40254C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2104,7 +2104,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\class discovery singleton\search for available lvclass files.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AB777524173FA874BB96D7F15DE1AE8</GUID>
+      <GUID>A4B0DEA30D65185EC283CEBEDFDD260E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
