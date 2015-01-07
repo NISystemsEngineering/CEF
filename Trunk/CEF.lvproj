@@ -23,6 +23,8 @@
 		<Item Name="CEF" Type="Folder" URL="../..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="adssadadasd.vi" Type="VI" URL="../../../../Users/Daniel/Desktop/adssadadasd.vi"/>
+		<Item Name="asdsad.vi" Type="VI" URL="../../../../Users/Daniel/Desktop/asdsad.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
