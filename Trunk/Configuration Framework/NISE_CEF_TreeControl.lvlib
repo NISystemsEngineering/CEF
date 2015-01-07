@@ -43,6 +43,7 @@
 	<Item Name="ClassNameCompare.vi" Type="VI" URL="../ClassNameCompare.vi"/>
 	<Item Name="ClearSpecificError.vi" Type="VI" URL="../ClearSpecificError.vi"/>
 	<Item Name="ClearSubPanel.vi" Type="VI" URL="../ClearSubPanel.vi"/>
+	<Item Name="ClearSubPanelStandardEvents.vi" Type="VI" URL="../ClearSubPanelStandardEvents.vi"/>
 	<Item Name="ClearTreeNode.vi" Type="VI" URL="../ClearTreeNode.vi"/>
 	<Item Name="CloseNode.vi" Type="VI" URL="../CloseNode.vi"/>
 	<Item Name="DuplicateNode.vi" Type="VI" URL="../DuplicateNode.vi"/>
@@ -50,8 +51,8 @@
 	<Item Name="GlyphIndexPairs.vi" Type="VI" URL="../GlyphIndexPairs.vi"/>
 	<Item Name="LoadCustomGlyphs.vi" Type="VI" URL="../LoadCustomGlyphs.vi"/>
 	<Item Name="LoadNodeUI.vi" Type="VI" URL="../LoadNodeUI.vi"/>
+	<Item Name="LoadNodeUIStandardEvents.vi" Type="VI" URL="../LoadNodeUIStandardEvents.vi"/>
 	<Item Name="MoveNode.vi" Type="VI" URL="../MoveNode.vi"/>
-	<Item Name="NodeUI.vit" Type="VI" URL="../NodeUI.vit"/>
 	<Item Name="NonDuplicateArrays.vi" Type="VI" URL="../NonDuplicateArrays.vi"/>
 	<Item Name="one shot error.vi" Type="VI" URL="../one shot error.vi"/>
 	<Item Name="PopulateTreeSumary.vi" Type="VI" URL="../PopulateTreeSumary.vi"/>
