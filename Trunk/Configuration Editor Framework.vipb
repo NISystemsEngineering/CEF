@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2014-12-30 17:13:53" Creator="Daniel" Comments="" ID="8c47f68f5908493dff1ccf7d45d27af2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2015-01-08 11:19:38" Creator="Daniel" Comments="" ID="0baa3183bd30cd774ea0118fbb8c0bb6">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>2.0.6.3</Library_Version>
+    <Library_Version>2.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\CEF</Library_Output_Folder>
@@ -37,6 +37,8 @@ The Configurator Editor Framework which is a starting point for creating a custo
       <URL>http://www.ni.com/example/51881/en</URL>
       <Release_Notes>Advance project includes a predefined Repo Behavior and predefined File Structure and configuration object
 Add folder concept.
+
+Refactors Glyph loading process to include overlay features and better searching. Advanced nodes validate their configuration and provide an error overlay.
 
 More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_Notes>
     </Description>
@@ -124,6 +126,71 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>.</Path>
         <Password/>
         <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/class discovery singleton/class discovery singleton.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/NISE_CEF_TreeControl.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/Repository/NISE_CEF_Repository.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/Node/NISE_CEF_Node.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/Node/NodeUI.vit</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/glyph manager/glyph manager.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/folder configuration/NISE_CEF_serializable node folder configuration.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework/folder/NISE_CEF_serializable node folder.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Framework</Path>
+        <Password/>
+        <Locked_Only>true</Locked_Only>
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
@@ -333,7 +400,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\class discovery singleton</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>109706BEC120C10EE2C0B822225F89D8</GUID>
+      <GUID>6674D019C3C4E0418BCD816A1E2C24C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -424,7 +491,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>178039F1620C78CF53CE1427AD627414</GUID>
+      <GUID>24223E2D57280C84E1647867FF5115A1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -571,7 +638,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Node\FilterNodesByRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>947295A31BBA26E30C288A605FFF2613</GUID>
+      <GUID>085EF4671F03CD5F256B75524FDE9708</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -771,7 +838,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Configuration Framework\NodeUI.vit</Path>
+        <Path>Configuration Framework\Node\NodeUI.vit</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -788,7 +855,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\error generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F471E99FA16E8612EB6E5952768ADA4A</GUID>
+      <GUID>D88A9FFB6259F0481474A55743C1DBED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1215,7 +1282,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\tree serializer\search hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E000B7202676CB967A9557956DC340C6</GUID>
+      <GUID>DA63698A659DD39ED82606B7DD5A7E2D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1334,7 +1401,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\serializable node\get information display strings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9825B82C48D7D8600217DC6C5E842C0</GUID>
+      <GUID>23A74927AA54251F50092E89C81B28B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1705,7 +1772,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\serializable configuration\parse version string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA91437AE5B6275D76BD4CAC3A1FB767</GUID>
+      <GUID>0666BB3F4FB2DFB87B2F29112B55CAF9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1852,7 +1919,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\hierarchy repo\set configuration by alias.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB69CC99CAAAEBBFB1A6C0D43F7830B5</GUID>
+      <GUID>60DD2774B44ADDF27693812223A3360B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2013,7 +2080,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\Repository\WriteTree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B110DED96FD86A300598E20F3C40254C</GUID>
+      <GUID>20A64FECEE4CCAF66F88E9D3567D4CF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2104,7 +2171,7 @@ More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_No
         <Path>Configuration Framework\class discovery singleton\search for available lvclass files.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4B0DEA30D65185EC283CEBEDFDD260E</GUID>
+      <GUID>79F7E53BC2F88BCC55A32CFF0137A062</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
