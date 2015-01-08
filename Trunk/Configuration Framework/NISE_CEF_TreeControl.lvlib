@@ -56,8 +56,11 @@
 	<Item Name="NonDuplicateArrays.vi" Type="VI" URL="../NonDuplicateArrays.vi"/>
 	<Item Name="one shot error.vi" Type="VI" URL="../one shot error.vi"/>
 	<Item Name="PopulateTreeSumary.vi" Type="VI" URL="../PopulateTreeSumary.vi"/>
+	<Item Name="PopulateTreeSumaryWithGlyphManager.vi" Type="VI" URL="../PopulateTreeSumaryWithGlyphManager.vi"/>
 	<Item Name="RefreshEntireTree.vi" Type="VI" URL="../RefreshEntireTree.vi"/>
+	<Item Name="RefreshEntireTreeWithGlyphManager.vi" Type="VI" URL="../RefreshEntireTreeWithGlyphManager.vi"/>
 	<Item Name="RefreshSubTree.vi" Type="VI" URL="../RefreshSubTree.vi"/>
+	<Item Name="RefreshSubTreeWithGlyphManager.vi" Type="VI" URL="../RefreshSubTreeWithGlyphManager.vi"/>
 	<Item Name="RemoveNode.vi" Type="VI" URL="../RemoveNode.vi"/>
 	<Item Name="Summary.vi" Type="VI" URL="../Summary.vi"/>
 	<Item Name="ValidDragDrop.vi" Type="VI" URL="../ValidDragDrop.vi"/>
