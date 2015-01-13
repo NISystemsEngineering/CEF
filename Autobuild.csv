@@ -1,3 +1,3 @@
 vi	build tools\BUILD_uninstall cef.vi
-vip	source\NI Tag Bus.vipb
+vip	Trunk\Configuration Editor Framework.vipb
 vi	build tools\BUILD_post build add to repo CEF.vi
