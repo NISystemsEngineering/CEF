@@ -63,5 +63,6 @@
 	<Item Name="RefreshSubTreeWithGlyphManager.vi" Type="VI" URL="../RefreshSubTreeWithGlyphManager.vi"/>
 	<Item Name="RemoveNode.vi" Type="VI" URL="../RemoveNode.vi"/>
 	<Item Name="Summary.vi" Type="VI" URL="../Summary.vi"/>
+	<Item Name="SummaryWithGlyphManager.vi" Type="VI" URL="../SummaryWithGlyphManager.vi"/>
 	<Item Name="ValidDragDrop.vi" Type="VI" URL="../ValidDragDrop.vi"/>
 </Library>
