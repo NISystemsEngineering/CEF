@@ -34,8 +34,11 @@ Unable to locate an UID in the serialized data
 <nierror code="538509">
 Specified UID is the root, the hierarchy cannot be split
 </nierror>
-<nierror code="5385010">
+<nierror code="538510">
 No configuration Matches the alias
+</nierror>
+<nierror code="538511">
+The configuration object does not have an instance ID and has not been properly initialized
 </nierror>
 
 
