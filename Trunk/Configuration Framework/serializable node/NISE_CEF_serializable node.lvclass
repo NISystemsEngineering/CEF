@@ -82,24 +82,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
-	<Item Name="callback on LoadUI.vi" Type="VI" URL="../callback on LoadUI.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!O1(!!(A!!&amp;R6/36.&amp;8U.&amp;2F^/&lt;W2F,GRW9WRB=X-!$%ZP:'5O&lt;(:D&lt;'&amp;T=Q!!%5"Q!#!!!1!'!!2O&lt;W2F!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!#!!!!!!"!!A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
-	</Item>
-	<Item Name="callback on WriteTree.vi" Type="VI" URL="../callback on WriteTree.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!O1(!!(A!!&amp;R6/36.&amp;8U.&amp;2F^/&lt;W2F,GRW9WRB=X-!$%ZP:'5O&lt;(:D&lt;'&amp;T=Q!!%5"Q!#!!!1!'!!2O&lt;W2F!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!#!!!!!!"!!A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
-	</Item>
 	<Item Name="ConcatenateOntoShortcutMenu.vi" Type="VI" URL="../ConcatenateOntoShortcutMenu.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%"Q!!E-&lt;76O&gt;3"S:79A&lt;X6U!!!%!!!!/%"Q!"Y!!#1C4EF426^$25:@=W6S;7&amp;M;8JB9GRF)'ZP:'5O&lt;(:D&lt;'&amp;T=Q!!#'ZP:'5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%E"Q!!E,&lt;76O&gt;3"S:79A;7Y!.E"Q!"Y!!#1C4EF426^$25:@=W6S;7&amp;M;8JB9GRF)'ZP:'5O&lt;(:D&lt;'&amp;T=Q!!"WZP:'5A;7Y!6!$Q!!Q!!Q!%!!5!"A!&amp;!!5!"1!&amp;!!=!#!!&amp;!!E$!!"Y!!!.#!!!$1E!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!!!!!!*!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
