@@ -164,11 +164,20 @@
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
 			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../Configuration Framework/NISE_CEF_TreeControl.lvlib"/>
 			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Node/NISE_CEF_Node.lvclass"/>
 			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../../../../Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
+			<Item Name="glyph manager.lvlib" Type="Library" URL="../../../../Configuration Framework/glyph manager/glyph manager.lvlib"/>
+			<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
+			<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="../../../../Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
+			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../../../../Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
+			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
