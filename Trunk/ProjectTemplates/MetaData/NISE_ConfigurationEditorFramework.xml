@@ -10,17 +10,19 @@
   <LocationPath>Configuration Editor Framework</LocationPath>
   <ProjectPath>Configuration Editor Framework Template.lvproj</ProjectPath>
   <ListboxImagePath>Glyphs/Gear.png</ListboxImagePath>
+  <DocumentationPath>documentation/redirect.html</DocumentationPath>
 </ProjectTemplate>
 
 
 <ProjectTemplate>
-  <Title localize="yes">Advanced Configuration Editor</Title>
+  <Title localize="yes">Hierarchical Configuration Editor</Title>
   <Description localize="yes">Template for creating a Node-based Configuration Editor.</Description>
   <Filters localize="yes">Sample Projects:Desktop</Filters>
   <Keywords localize="yes">CVT;Configuration;Tree;</Keywords>
   <LocationPath>Advanced Configurator</LocationPath>
   <ProjectPath>Advanced Configuration Editor.lvproj</ProjectPath>
   <ListboxImagePath>Glyphs/Gear.png</ListboxImagePath>
+  <DocumentationPath>documentation/redirect.html</DocumentationPath>
 </ProjectTemplate>
 
 
