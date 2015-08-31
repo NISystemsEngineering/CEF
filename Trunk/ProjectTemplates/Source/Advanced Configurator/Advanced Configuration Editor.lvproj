@@ -111,6 +111,12 @@
 			<Item Name="task.png" Type="Document" URL="../Glyphs/task.png"/>
 			<Item Name="temp.png" Type="Document" URL="../Glyphs/temp.png"/>
 			<Item Name="velocity.png" Type="Document" URL="../Glyphs/velocity.png"/>
+			<Item Name="Async.png" Type="Document" URL="../Glyphs/Async.png"/>
+			<Item Name="cRIO.png" Type="Document" URL="../Glyphs/cRIO.png"/>
+			<Item Name="Error.png" Type="Document" URL="../Glyphs/Error.png"/>
+			<Item Name="PC.png" Type="Document" URL="../Glyphs/PC.png"/>
+			<Item Name="steps.png" Type="Document" URL="../Glyphs/steps.png"/>
+			<Item Name="System.png" Type="Document" URL="../Glyphs/System.png"/>
 		</Item>
 		<Item Name="Advanced Configuration Tool.lvlib" Type="Library" URL="../Advanced Configuration Tool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -169,6 +175,9 @@
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 			</Item>
 			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
 			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../../../../Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
@@ -178,6 +187,8 @@
 			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../../../../Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
 			<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
 			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
+			<Item Name="NISE_error generator.vi" Type="VI" URL="../../../../Configuration Framework/error generator/NISE_error generator.vi"/>
+			<Item Name="glyph manager.lvlib" Type="Library" URL="../../../../Configuration Framework/glyph manager/glyph manager.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
