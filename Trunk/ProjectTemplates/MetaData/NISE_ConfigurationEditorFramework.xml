@@ -11,6 +11,10 @@
   <ProjectPath>Configuration Editor Framework Template.lvproj</ProjectPath>
   <ListboxImagePath>Glyphs/Gear.png</ListboxImagePath>
   <DocumentationPath>documentation/redirect.html</DocumentationPath>
+    <DocumentationPath>documentation/redirect.html</DocumentationPath>
+  <CustomVIPath>scripting/PostCopyScripting.vi</CustomVIPath>
+  <MetaDataClass>scripting/editorscriptingobject.lvclass</MetaDataClass> 
+  <SortPriority>298</SortPriority>
 </ProjectTemplate>
 
 
@@ -23,6 +27,10 @@
   <ProjectPath>Advanced Configuration Editor.lvproj</ProjectPath>
   <ListboxImagePath>Glyphs/Gear.png</ListboxImagePath>
   <DocumentationPath>documentation/redirect.html</DocumentationPath>
+    <DocumentationPath>documentation/redirect.html</DocumentationPath>
+    <CustomVIPath>scripting/PostCopyScripting.vi</CustomVIPath>
+  <MetaDataClass>scripting/editorscriptingobject.lvclass</MetaDataClass> 
+  <SortPriority>299</SortPriority>
 </ProjectTemplate>
 
 
