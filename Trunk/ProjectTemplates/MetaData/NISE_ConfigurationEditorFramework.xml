@@ -29,7 +29,7 @@
   <DocumentationPath>documentation/redirect.html</DocumentationPath>
     <DocumentationPath>documentation/redirect.html</DocumentationPath>
     <CustomVIPath>scripting/PostCopyScripting.vi</CustomVIPath>
-  <MetaDataClass>scripting/editorscriptingobjectadv.lvclass</MetaDataClass> 
+  <MetaDataClass>scripting/editorscriptingobject.lvclass</MetaDataClass> 
   <SortPriority>299</SortPriority>
 </ProjectTemplate>
 
