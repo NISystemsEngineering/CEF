@@ -20,8 +20,215 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CEF" Type="Folder" URL="../..">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="CEF" Type="Folder">
+			<Item Name="Dev" Type="Folder">
+				<Item Name="replace error gen.vi" Type="VI" URL="../../Dev/replace error gen.vi"/>
+			</Item>
+			<Item Name="Documentation" Type="Folder">
+				<Item Name="CEF Advance Clases.jpg" Type="Document" URL="../../Documentation/CEF Advance Clases.jpg"/>
+				<Item Name="CEF Advance Clases.xml" Type="Document" URL="../../Documentation/CEF Advance Clases.xml"/>
+				<Item Name="CEF Advance Data View.jpg" Type="Document" URL="../../Documentation/CEF Advance Data View.jpg"/>
+				<Item Name="CEF Advance Data View.xml" Type="Document" URL="../../Documentation/CEF Advance Data View.xml"/>
+				<Item Name="CEF Data View.jpg" Type="Document" URL="../../Documentation/CEF Data View.jpg"/>
+				<Item Name="CEF Data View.xml" Type="Document" URL="../../Documentation/CEF Data View.xml"/>
+				<Item Name="Configuration Editor Framework.docx" Type="Document" URL="../../Documentation/Configuration Editor Framework.docx"/>
+				<Item Name="module configurator documentation.html" Type="Document" URL="../../Documentation/module configurator documentation.html"/>
+			</Item>
+			<Item Name="Tests" Type="Folder">
+				<Item Name="Controls" Type="Folder"/>
+				<Item Name="NISE_CEF_Tests.lvlib" Type="Library" URL="../../Tests/NISE_CEF_Tests.lvlib"/>
+			</Item>
+			<Item Name="Trunk" Type="Folder">
+				<Item Name="Configuration Framework" Type="Folder">
+					<Item Name="class discovery singleton" Type="Folder">
+						<Item Name="class discovery singleton.lvlib" Type="Library" URL="../Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
+					</Item>
+					<Item Name="Controls" Type="Folder"/>
+					<Item Name="error generator" Type="Folder">
+						<Item Name="NISE_error generator.vi" Type="VI" URL="../Configuration Framework/error generator/NISE_error generator.vi"/>
+					</Item>
+					<Item Name="folder" Type="Folder">
+						<Item Name="NISE_CEF_serializable node folder.lvclass" Type="LVClass" URL="../Configuration Framework/folder/NISE_CEF_serializable node folder.lvclass"/>
+					</Item>
+					<Item Name="folder configuration" Type="Folder">
+						<Item Name="NISE_CEF_serializable node folder configuration.lvclass" Type="LVClass" URL="../Configuration Framework/folder configuration/NISE_CEF_serializable node folder configuration.lvclass"/>
+					</Item>
+					<Item Name="glyph manager" Type="Folder">
+						<Item Name="glyph manager.lvlib" Type="Library" URL="../Configuration Framework/glyph manager/glyph manager.lvlib"/>
+					</Item>
+					<Item Name="hierarchy repo" Type="Folder">
+						<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
+					</Item>
+					<Item Name="Node" Type="Folder">
+						<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="../Configuration Framework/Node/NISE_CEF_Node.lvclass"/>
+					</Item>
+					<Item Name="Repository" Type="Folder">
+						<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
+					</Item>
+					<Item Name="serializable configuration" Type="Folder">
+						<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="../Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
+					</Item>
+					<Item Name="serializable node" Type="Folder">
+						<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
+					</Item>
+					<Item Name="tree serializer" Type="Folder">
+						<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="../Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
+					</Item>
+					<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../Configuration Framework/NISE_CEF_TreeControl.lvlib"/>
+				</Item>
+				<Item Name="ProjectTemplates" Type="Folder">
+					<Item Name="MetaData" Type="Folder">
+						<Item Name="NISE_ConfigurationEditorFramework.xml" Type="Document" URL="../ProjectTemplates/MetaData/NISE_ConfigurationEditorFramework.xml"/>
+					</Item>
+					<Item Name="Source" Type="Folder">
+						<Item Name="Advanced Configurator" Type="Folder">
+							<Item Name="Classes" Type="Folder">
+								<Item Name="channel configuration" Type="Folder">
+									<Item Name="channel configuration.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/channel configuration/channel configuration.lvclass"/>
+								</Item>
+								<Item Name="channel node" Type="Folder">
+									<Item Name="channel node.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/channel node/channel node.lvclass"/>
+								</Item>
+								<Item Name="cRIO configuration" Type="Folder">
+									<Item Name="cRIO configuration.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/cRIO configuration/cRIO configuration.lvclass"/>
+								</Item>
+								<Item Name="cRIO node" Type="Folder">
+									<Item Name="cRIO  node root.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/cRIO node/cRIO  node root.lvclass"/>
+								</Item>
+								<Item Name="current node" Type="Folder">
+									<Item Name="current node.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/current node/current node.lvclass"/>
+								</Item>
+								<Item Name="group configuration" Type="Folder">
+									<Item Name="group configuration.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/group configuration/group configuration.lvclass"/>
+								</Item>
+								<Item Name="group node" Type="Folder">
+									<Item Name="group node.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/group node/group node.lvclass"/>
+								</Item>
+								<Item Name="voltage node" Type="Folder">
+									<Item Name="voltage node.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/Classes/voltage node/voltage node.lvclass"/>
+								</Item>
+							</Item>
+							<Item Name="Controls" Type="Folder"/>
+							<Item Name="documentation" Type="Folder">
+								<Item Name="redirect.html" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/documentation/redirect.html"/>
+							</Item>
+							<Item Name="Glyphs" Type="Folder">
+								<Item Name="AC_Volts.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/AC_Volts.png"/>
+								<Item Name="analog.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/analog.png"/>
+								<Item Name="ApplicationIcon.ico" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/ApplicationIcon.ico"/>
+								<Item Name="applications-system-3.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/applications-system-3.png"/>
+								<Item Name="Async.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Async.png"/>
+								<Item Name="Axis.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Axis.png"/>
+								<Item Name="ChnGroup.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/ChnGroup.png"/>
+								<Item Name="ChnTime.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/ChnTime.png"/>
+								<Item Name="ChnWave.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/ChnWave.png"/>
+								<Item Name="choice.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/choice.png"/>
+								<Item Name="Confine_Window.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Confine_Window.png"/>
+								<Item Name="cRIO.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/cRIO.png"/>
+								<Item Name="cRIO_Controller.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/cRIO_Controller.png"/>
+								<Item Name="cRIO_Network_Controller.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/cRIO_Network_Controller.png"/>
+								<Item Name="cRIOEmbeddedChassis.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/cRIOEmbeddedChassis.png"/>
+								<Item Name="Current.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Current.png"/>
+								<Item Name="DC_Volts.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/DC_Volts.png"/>
+								<Item Name="Error.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Error.png"/>
+								<Item Name="ethernet.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/ethernet.png"/>
+								<Item Name="Folder.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Folder.png"/>
+								<Item Name="Gear.ico" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Gear.ico"/>
+								<Item Name="Gear.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Gear.png"/>
+								<Item Name="PC.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/PC.png"/>
+								<Item Name="Resource.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/Resource.png"/>
+								<Item Name="rotation2.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/rotation2.png"/>
+								<Item Name="steps.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/steps.png"/>
+								<Item Name="System.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/System.png"/>
+								<Item Name="task.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/task.png"/>
+								<Item Name="temp.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/temp.png"/>
+								<Item Name="velocity.png" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Glyphs/velocity.png"/>
+							</Item>
+							<Item Name="scripting" Type="Folder">
+								<Item Name="editorscriptingobjectadv.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/scripting/editorscriptingobjectadv.lvclass"/>
+							</Item>
+							<Item Name="subVI" Type="Folder"/>
+							<Item Name="Advanced Configuration Editor.aliases" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Advanced Configuration Editor.aliases"/>
+							<Item Name="Advanced Configuration Editor.lvproj" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Advanced Configuration Editor.lvproj"/>
+							<Item Name="Advanced Configuration Tool.lvlib" Type="Library" URL="../ProjectTemplates/Source/Advanced Configurator/Advanced Configuration Tool.lvlib"/>
+						</Item>
+						<Item Name="Configuration Editor Framework" Type="Folder">
+							<Item Name="Classes" Type="Folder">
+								<Item Name="Channel" Type="Folder">
+									<Item Name="Channel.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/Classes/Channel/Channel.lvclass"/>
+								</Item>
+								<Item Name="cRIO" Type="Folder">
+									<Item Name="cRIO.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/Classes/cRIO/cRIO.lvclass"/>
+								</Item>
+								<Item Name="cRIO Repo" Type="Folder">
+									<Item Name="cRIORepo.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/Classes/cRIO Repo/cRIORepo.lvclass"/>
+								</Item>
+								<Item Name="Current" Type="Folder">
+									<Item Name="Current.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/Classes/Current/Current.lvclass"/>
+								</Item>
+								<Item Name="Group" Type="Folder">
+									<Item Name="Group.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/Classes/Group/Group.lvclass"/>
+								</Item>
+								<Item Name="Voltage" Type="Folder">
+									<Item Name="Voltage.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/Classes/Voltage/Voltage.lvclass"/>
+								</Item>
+							</Item>
+							<Item Name="Controls" Type="Folder"/>
+							<Item Name="documentation" Type="Folder">
+								<Item Name="redirect.html" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/documentation/redirect.html"/>
+							</Item>
+							<Item Name="Glyphs" Type="Folder">
+								<Item Name="AC_Volts.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/AC_Volts.png"/>
+								<Item Name="analog.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/analog.png"/>
+								<Item Name="ApplicationIcon.ico" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/ApplicationIcon.ico"/>
+								<Item Name="applications-system-3.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/applications-system-3.png"/>
+								<Item Name="Async.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Async.png"/>
+								<Item Name="Axis.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Axis.png"/>
+								<Item Name="ChnGroup.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/ChnGroup.png"/>
+								<Item Name="ChnTime.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/ChnTime.png"/>
+								<Item Name="ChnWave.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/ChnWave.png"/>
+								<Item Name="choice.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/choice.png"/>
+								<Item Name="Confine_Window.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Confine_Window.png"/>
+								<Item Name="cRIO.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/cRIO.png"/>
+								<Item Name="cRIO_Controller.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/cRIO_Controller.png"/>
+								<Item Name="cRIO_Network_Controller.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/cRIO_Network_Controller.png"/>
+								<Item Name="cRIOEmbeddedChassis.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/cRIOEmbeddedChassis.png"/>
+								<Item Name="Current.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Current.png"/>
+								<Item Name="DC_Volts.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/DC_Volts.png"/>
+								<Item Name="Error.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Error.png"/>
+								<Item Name="ethernet.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/ethernet.png"/>
+								<Item Name="Folder.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Folder.png"/>
+								<Item Name="Gear.ico" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Gear.ico"/>
+								<Item Name="Gear.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Gear.png"/>
+								<Item Name="PC.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/PC.png"/>
+								<Item Name="Resource.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/Resource.png"/>
+								<Item Name="rotation2.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/rotation2.png"/>
+								<Item Name="steps.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/steps.png"/>
+								<Item Name="System.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/System.png"/>
+								<Item Name="task.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/task.png"/>
+								<Item Name="temp.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/temp.png"/>
+								<Item Name="velocity.png" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Glyphs/velocity.png"/>
+							</Item>
+							<Item Name="scripting" Type="Folder">
+								<Item Name="editorscriptingobject.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Configuration Editor Framework/scripting/editorscriptingobject.lvclass"/>
+							</Item>
+							<Item Name="subVI" Type="Folder"/>
+							<Item Name="Configuration Editor Framework Template.lvproj" Type="Document" URL="../ProjectTemplates/Source/Configuration Editor Framework/Configuration Editor Framework Template.lvproj"/>
+							<Item Name="Configuration Tool.lvlib" Type="Library" URL="../ProjectTemplates/Source/Configuration Editor Framework/Configuration Tool.lvlib"/>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="CEF-errors.txt" Type="Document" URL="../CEF-errors.txt"/>
+				<Item Name="CEF.aliases" Type="Document" URL="../CEF.aliases"/>
+				<Item Name="CEF.lvlps" Type="Document" URL="../CEF.lvlps"/>
+				<Item Name="Configuration Editor Framework.vipb" Type="Document" URL="../Configuration Editor Framework.vipb"/>
+			</Item>
+			<Item Name=".gitignore" Type="Document" URL="../../.gitignore"/>
+			<Item Name="Autobuild.csv" Type="Document" URL="../../Autobuild.csv"/>
+			<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
+			<Item Name="NOTICE" Type="Document" URL="../../NOTICE"/>
+			<Item Name="README.md" Type="Document" URL="../../README.md"/>
+			<Item Name="version.txt" Type="Document" URL="../../version.txt"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
