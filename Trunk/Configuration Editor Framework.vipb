@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2016-03-15 17:25:42" Creator="Daniel" Comments="" ID="f8a30ca09baa28742e9352dc92fdd6e1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2016-04-25 17:39:55" Creator="Daniel" Comments="" ID="b278e929e3b02ffa5526810b02c54391">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>2.1.1.3</Library_Version>
+    <Library_Version>2.1.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\CEF</Library_Output_Folder>
@@ -426,7 +426,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\error generator\NISE_error generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>21D6ECE9184CADD945F647051D01E200</GUID>
+      <GUID>EE98A766047515640937D3FBF802DDE7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -517,7 +517,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\Node\Duplicate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61B9A1138E194AC02E81416DA0B8A9CE</GUID>
+      <GUID>A077CF658529EAC3C3666D4933F39C2C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -664,7 +664,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\Node\FilterNodesByRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>073726F6A24744D6CADFEC0730FCAC67</GUID>
+      <GUID>C125FEEEFE75D34BCE595F45766E8988</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -909,7 +909,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\RefreshSubTreeWithGlyphManager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51DF8A936026FD7C51F0E1346147F43A</GUID>
+      <GUID>4396D8AA384D66787A4549E2DE5AB08A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1336,7 +1336,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\tree serializer\search hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C2E58E1DC592AAC88C7DC2F453F2E47</GUID>
+      <GUID>65EAC5D20F8B0F592A60FCA4528C7D44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1455,7 +1455,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\serializable node\get information display strings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A67DC9CFC5566727DB6C12FC09E2D7A0</GUID>
+      <GUID>C11B7B79992A8B5F9D143203E6C46C8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1826,7 +1826,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\serializable configuration\parse version string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4255A918025636DB1166E2A6763A3AEC</GUID>
+      <GUID>B272347FD6678D9A1A105B3F8395F0E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1973,7 +1973,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\hierarchy repo\set configuration by alias.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDAE49487120C3935876201555840738</GUID>
+      <GUID>11759C6A6B47BF5E5E929B563C7A35D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2134,7 +2134,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\Repository\WriteTree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E116EB6972586CBF91D603E9F8CF1754</GUID>
+      <GUID>2E32D774A97C3F946E118ABF3471F613</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2225,7 +2225,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\class discovery singleton\search for available lvclass files.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D94006F2EE980291408038DD0356B57</GUID>
+      <GUID>C52BAAFAEAD9C526DF2FD9E3ED7F06E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2330,7 +2330,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Configuration Framework\glyph manager\update tree control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B1A00BA4B04747C582A5D55B52C480B</GUID>
+      <GUID>8D06EC8D3323AACD354D2C400EF86A1D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
