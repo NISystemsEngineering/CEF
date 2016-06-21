@@ -225,7 +225,6 @@
 			</Item>
 			<Item Name=".gitignore" Type="Document" URL="../../.gitignore"/>
 			<Item Name="Autobuild.csv" Type="Document" URL="../../Autobuild.csv"/>
-			<Item Name="LICENSE" Type="Document" URL="../../LICENSE"/>
 			<Item Name="NOTICE" Type="Document" URL="../../NOTICE"/>
 			<Item Name="README.md" Type="Document" URL="../../README.md"/>
 			<Item Name="version.txt" Type="Document" URL="../../version.txt"/>
