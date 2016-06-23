@@ -168,6 +168,8 @@
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			</Item>
 			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="../../../../Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
 			<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="../../../../Configuration Framework/NISE_CEF_TreeControl.lvlib"/>
@@ -178,6 +180,7 @@
 			<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="../../../../Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
 			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="../../../../Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="../../../../Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
+			<Item Name="NISE_error generator.vi" Type="VI" URL="../../../../Configuration Framework/error generator/NISE_error generator.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
@@ -191,24 +194,29 @@
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Git/Builds/NI_AB_PROJECTNAME/My Application</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A08EDE1A-E5D7-46E3-85D9-F02CC808F525}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Git/Builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Git/Builds/NI_AB_PROJECTNAME/My Application/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">App Folder</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/App Folder</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1912D2DE-41F6-4DEE-8415-0A81733827BE}</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Git/Builds/NI_AB_PROJECTNAME/My Application/App Folder</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].destName" Type="Str">Classes</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Git/Builds/NI_AB_PROJECTNAME/My Application/Classes</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CB7DB044-E0E6-48DF-B29B-BAFDAC467364}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Classes</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
