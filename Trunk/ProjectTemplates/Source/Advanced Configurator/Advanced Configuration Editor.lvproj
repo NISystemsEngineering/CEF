@@ -191,7 +191,7 @@
 			<Item Name="glyph manager.lvlib" Type="Library" URL="../../../../Configuration Framework/glyph manager/glyph manager.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="My Application" Type="EXE">
+			<Item Name="My Editor" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{59AEA79B-CE7F-4E38-BF24-A507AC90DD48}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C2A1D0C2-689C-4622-AC54-42DBBB1A5A2C}</Property>
@@ -199,23 +199,27 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.DS.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E991D98E-355D-48AC-9C6D-ABBD596F3F09}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Editor</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Editor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35C0CF64-D14D-4913-8657-A86A5B7CC94B}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Editor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Editor/Editor.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{09107F50-E104-4258-92E5-CA0FCB277E6D}</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Editor/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">Classes</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Editor/Classes</Property>
+				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Editor/Glyphs</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E7A6C294-83C4-4CF1-9B3C-4C013D9665D2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Advanced Configuration Tool.lvlib/Configuration Tool Main.vi</Property>
@@ -226,19 +230,26 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Classes</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">DS</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Editor</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Editor</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 DS</Property>
-				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_productName" Type="Str">My Editor</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EB4A0B48-15E1-4FDA-B5C4-ED02A48D4299}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Editor.exe</Property>
 			</Item>
 		</Item>
 	</Item>

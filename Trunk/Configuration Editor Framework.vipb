@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2016-06-23 10:20:46" Creator="Daniel" Comments="" ID="1575266b46cdcd15d04b7d792be82cff">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-21 15:11:17" Modified_Date="2016-06-23 14:37:34" Creator="Daniel" Comments="" ID="7ef845194c472af10acbe38742f0c0cb">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_config_editor</Package_File_Name>
-    <Library_Version>2.1.1.5</Library_Version>
+    <Library_Version>2.1.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\CEF</Library_Output_Folder>
@@ -35,10 +35,7 @@ The Configurator Editor Framework which is a starting point for creating a custo
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://www.ni.com/example/51881/en</URL>
-      <Release_Notes>Advance project includes a predefined Repo Behavior and predefined File Structure and configuration object
-Add folder concept.
-
-Refactors Glyph loading process to include overlay features and better searching. Advanced nodes validate their configuration and provide an error overlay.
+      <Release_Notes>Included default builds for Exes
 
 More details in : https://github.com/NISystemsEngineering/CEF/issues</Release_Notes>
     </Description>
