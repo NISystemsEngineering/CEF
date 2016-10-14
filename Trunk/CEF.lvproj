@@ -219,8 +219,6 @@
 					</Item>
 				</Item>
 				<Item Name="CEF-errors.txt" Type="Document" URL="../CEF-errors.txt"/>
-				<Item Name="CEF.aliases" Type="Document" URL="../CEF.aliases"/>
-				<Item Name="CEF.lvlps" Type="Document" URL="../CEF.lvlps"/>
 				<Item Name="Configuration Editor Framework.vipb" Type="Document" URL="../Configuration Editor Framework.vipb"/>
 			</Item>
 			<Item Name=".gitignore" Type="Document" URL="../../.gitignore"/>
