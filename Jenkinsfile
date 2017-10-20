@@ -4,7 +4,7 @@
 //Modify the below parameters to match the values for this particular repo
 
 def utfPaths = ["Trunk\\CEF.lvproj"]
-def vipbPaths = ["Trunk\\Configurator Editor Framework.vipb"]
+def vipbPaths = ["Trunk\\Configuration Editor Framework.vipb"]
 def lvVersion = "14.0"
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
