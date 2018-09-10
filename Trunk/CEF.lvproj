@@ -148,7 +148,6 @@
 								<Item Name="editorscriptingobjectadv.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/Advanced Configurator/scripting/editorscriptingobjectadv.lvclass"/>
 							</Item>
 							<Item Name="subVI" Type="Folder"/>
-							<Item Name="Advanced Configuration Editor.aliases" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Advanced Configuration Editor.aliases"/>
 							<Item Name="Advanced Configuration Editor.lvproj" Type="Document" URL="../ProjectTemplates/Source/Advanced Configurator/Advanced Configuration Editor.lvproj"/>
 							<Item Name="Advanced Configuration Tool.lvlib" Type="Library" URL="../ProjectTemplates/Source/Advanced Configurator/Advanced Configuration Tool.lvlib"/>
 						</Item>
