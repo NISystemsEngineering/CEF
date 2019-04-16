@@ -1,7 +1,7 @@
 # Configuration Editor Framework (CEF)
-================
+
 ### The Configurator Editor Framework which is a starting point for creating a custom configuration editor in the LabVIEW Development Environment. 
-================
+
 #### *This repository and any materials provided by NI therein are provided AS IS. NI DISCLAIMS ANY AND ALL LIABILITIES FOR AND MAKES NO WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR  PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY. NI shall have no liability for any direct, indirect, incidental, punitive, special, or consequential damages for your use of the repository or any materials contained therein.*
 ================
 Copyright 2015 National Instruments Corporation
@@ -10,7 +10,7 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 ================
 
-###Overview:
+### Overview:
 Application configuration is a large task for application architecture. In an attempt to make system configuration easier for designers as well as end-users, configuration editors are often implemented. In this document we cover the Configurator Editor Framework which is a starting point for creating a custom configuration editor in the LabVIEW Development Environment. The framework consists of a tree control and subpanel API, a LabVIEW project template, and 2 abstract LabVIEW classes. 
  
 More information in [Configuration Editor Framework (CEF)](http://www.ni.com/example/51881/en/)
