@@ -3,7 +3,7 @@
 ### The Configurator Editor Framework which is a starting point for creating a custom configuration editor in the LabVIEW Development Environment. 
 
 #### *This repository and any materials provided by NI therein are provided AS IS. NI DISCLAIMS ANY AND ALL LIABILITIES FOR AND MAKES NO WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR  PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY. NI shall have no liability for any direct, indirect, incidental, punitive, special, or consequential damages for your use of the repository or any materials contained therein.*
-================
+
 Copyright 2015 National Instruments Corporation
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -15,8 +15,6 @@ Application configuration is a large task for application architecture. In an at
  
 More information in [Configuration Editor Framework (CEF)](http://www.ni.com/example/51881/en/)
 
-
- 
 ### Contribution Workflow:
 *For a more complete workflow, view [this set-up guide](https://decibel.ni.com/content/docs/DOC-37416) and [this workflow guide](https://decibel.ni.com/content/docs/DOC-37417).*
 
